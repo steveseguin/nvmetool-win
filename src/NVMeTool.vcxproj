@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -169,6 +169,7 @@
     <ClInclude Include="NVMeErrorInformation.h" />
     <ClInclude Include="NVMeFeaturesAPST.h" />
     <ClInclude Include="NVMeFeaturesHCTM.h" />
+	<ClInclude Include="NVMeFeaturesTemperatureThreshold.h" />
     <ClInclude Include="NVMeFeaturesHMB.h" />
     <ClInclude Include="NVMeFeaturesLBARange.h" />
     <ClInclude Include="NVMeFeaturesTimestamp.h" />
@@ -202,6 +203,7 @@
     <ClCompile Include="NVMeErrorInformation.c" />
     <ClCompile Include="NVMeFeaturesAPST.c" />
     <ClCompile Include="NVMeFeaturesHCTM.c" />
+	<ClCompile Include="NVMeFeaturesTemperatureThreshold.c" />
     <ClCompile Include="NVMeFeaturesHMB.c" />
     <ClCompile Include="NVMeFeaturesLBARange.c" />
     <ClCompile Include="NVMeFeaturesTimestamp.c" />
